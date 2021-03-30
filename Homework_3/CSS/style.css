@@ -1,0 +1,60 @@
+/* option[value="2"] {
+    color: blue;
+} */
+/* body select option[value="2"] {
+    color: blue;
+} */
+/* select option[value="2"] {
+    color: blue;
+} */
+/* select > option[value="2"] {
+    color: blue;
+} */
+/* body option[value="2"] {
+    color: blue;
+} */
+/* body select#id-select option[value="2"]{
+    color: blue;
+} */
+/* body select#id-select option[value="1"]+option[value="2"]{
+    color: blue;
+} */
+/* li#id-li {
+    color: blue;
+} */
+/* ul li#id-li {
+    color: blue;
+} */
+/* ul.list li#id-li {
+    color: blue;
+} */
+/* nav ul li#id-li {
+    color: blue;
+} */
+/* nav ul.list li#id-li {
+    color: blue;
+} */
+/* nav.navigation ul.list li#id-li {
+    color: blue;
+} */
+/* body select#id-select+nav.navigation ul.list li#id-li {
+    color: blue;
+} */
+/* p {
+    color: blue;
+} */
+/* p.text {
+    color: blue;
+} */
+/* p#id-p {
+    color: blue;
+} */
+/* p.text#id-p {
+    color: blue;
+} */
+/* body nav.navigation+div.box p.text#id-p {
+    color: blue;
+} */
+/* body nav.navigation+div.box p.text#id-p span.text-item a.text-item-link {
+    color: green;
+} */
