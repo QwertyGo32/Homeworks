@@ -47,8 +47,9 @@ a:active {
     color: red;
     opacity: 0.8;
 }
-a:checked {
+a:visited {
     color: blue;
+}
 }
 select, option {
     font-size: 15px;
