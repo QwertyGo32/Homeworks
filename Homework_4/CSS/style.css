@@ -1,0 +1,29 @@
+.main__head {
+    display: flex;
+}
+.main__banner {
+    display: flex;
+}
+.main__banner__good {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.vacuum-cleaners {
+    margin-right: 15px;
+    font-size: x-large;
+}
+.see-all {
+    font-size: small;
+}
+.good-1__code {
+    align-self: flex-end;
+    margin-right: 10px;
+    font-size: smaller;
+}
