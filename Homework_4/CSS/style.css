@@ -40,6 +40,7 @@ a:visited {
 	position: absolute;
 	right: 5%;
 	top: 5%;
+	transition: 0.5s;
 }
 .main__price-tag:hover {
 	cursor: pointer;
@@ -66,6 +67,7 @@ a:visited {
 	background-color: rgb(59, 161, 59);
 	display: flex;
 	justify-content: center;
+	transition: 0.5s;
 }
 .main__basket-logo:hover {
 	cursor: pointer;
