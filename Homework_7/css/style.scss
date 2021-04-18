@@ -1,0 +1,148 @@
+@import "./normalize.scss";
+
+body {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.traffic-light {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 220px;
+  height: 640px ;
+  border: 1px solid black;
+  border-radius: 30px;
+  background: rgb(37, 37, 37);
+
+  
+  &__red-circle {
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    animation-name: red-light;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes red-light {
+    0% {
+      background: red;
+    }
+    33% {
+      background: red;
+    }
+    34% {
+      background: rgba(255, 0, 0, 0.199);
+    }
+    100% {
+      background: rgba(255, 0, 0, 0.199);
+    }
+  }
+
+  &__yellow-circle {
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    animation-name: yellow-light;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes yellow-light {
+    0% {
+      background: rgba(255, 255, 0, 0.377);
+    }
+    33% {
+      background: rgba(255, 255, 0, 0.377);
+    }
+    34% {
+      background: yellow;
+    }
+    66% {
+      background: yellow;
+    }
+    67% {
+      background: rgba(255, 255, 0, 0.377);
+    }
+    100% {
+      background: rgba(255, 255, 0, 0.377);
+    }
+  }
+
+  &__green-circle {
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    animation-name: green-light;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes green-light {
+    0% {
+      background: rgba(0, 128, 0, 0.199);
+    }
+    66% {
+      background: rgba(0, 128, 0, 0.199);
+    }
+    67% {
+      background: green;
+    }
+    100% {
+      background: green;
+    }
+  }
+}
+
+.star {
+  width: 600px;
+  height: 600px;
+  position: relative;
+
+  &__top-left {
+    border: 200px solid transparent;
+    border-right: 100px solid black;
+    border-bottom: 100px solid black;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  &__top-right {
+    border: 200px solid transparent;
+    border-left: 100px solid black;
+    border-bottom: 100px solid black;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  &__bottom-right {
+    border: 200px solid transparent;
+    border-left: 100px solid black;
+    border-top: 100px solid black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  &__bottom-left {
+    border: 200px solid transparent;
+    border-right: 100px solid black;
+    border-top: 100px solid black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+
